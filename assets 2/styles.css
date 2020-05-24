@@ -1,0 +1,52 @@
+body {
+    background: #84b8ec;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;;
+}
+
+img {
+    height: 5rem;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 40%;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 6px 9px 20px -3px #6b6b6b;
+}
+
+.box {
+    width: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 0 20px;‹3‹£‹
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #8b84ec;
+}
+
+.price {
+    color: #8b84ec;
+    font-size: 2rem;
+}
+
+.price::before {
+    content: '$';
+    font-size: 1.2rem;
+    vertical-align: text-top;
+}
+
+.small {
+    font-size: 1.2rem;
+}
